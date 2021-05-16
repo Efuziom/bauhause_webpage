@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <!--top -->
+        <header>
+            <img src="resources/bauhaus_brand_logo.png" alt="bauhau" class="header_img"/>
+            <nav class="header_contacts">
+                <ul>
+                    <li>contact: (+286) 125664 26 45 785</li>
+                    <li>
+                        <hr width="10px"/>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="https://duckduckgo.com/i/e04f377e.png" class="socials_logo"/>
+                            </li>
+                            <li>
+                                <img src="https://external-content.duckduckgo.com/ip3/twitter.com.ico" class="socials_logo"/>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="nav menu_access">
+                <ul>
+                    <li>menu</li>
+                    <li>
+                        <img src="resources/more.png" alt="expends" class="header_img menu_access"/>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <!--image slider -->
+            <div class="part_1">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                <img src="resources/white_boxes_for_humans.webp" style="width:100%"/>
+                <div class="text">The boxed appartment units</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="resources/green_facade.webp" style="width:100%"/>
+                <div class="text">The luxury abandoned car-park</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="resources/weirdly_shaped_building.webp" style="width:100%"/>
+                <div class="text">One tile modele for the entire pool!</div>
+                </div>
+
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <script src="image_slider.js"></script>
+            </div>
+
+            <!--part 2, two column layout-->
+            <div class="part_2">
+                <div class=".part_2Text part_text">
+                    <p class="emphased">about us<p>
+                    <h1 class="part_title">
+                        We are the leader in the architectural
+                    </h1>
+                    <p>
+                        Lowem ipsum dowow sit amet, consectetuw adipiscing ewit, sed do eiusmod tempow incididunt ut wabowe et dowowe magnya awiqua.
+                        Phawetwa et uwtwices nyeque ownyawe aenyean euismod ewementum nyisi quis.
+                        Ewementum nyisi quis eweifend quam.
+                        Vitae tempus quam pewwentesque nyec nyam awiquam sem et towtow.
+                    </p>
+                    <img src="resources/26years.png" class="part_2Text_img" alt="26 years of experience"/>
+                </div>
+                <img src="resources/the_great_flood.webp" class="part_2Img"/>
+            </div>
+
+            <!--part3, slide 2 (but static)-->
+            <div class="part_3">
+                <!--top bar-->
+                <nav class="top_bar_projects">
+                    <h1 class="part_title">Latest projects</h1>
+                    <ul class="projects_nav">
+                        <li>Rating</li>
+                        <li>Video & Media supports</li>
+                    </ul>
+                </nav>
+                <nav class="project_brieves">
+                    <div class="project_frame">
+                        <img src="resources/Jiaxing-Island.jpg" class="project_img">
+                        <p class="text_project">Jiaxing Island</p>
+                        <a>see more &#10095;</a>
+                    </div>
+                    <div class="project_frame">
+                        <img src="resources/cabage_stack.jpg" class="project_img grenized"/>
+                        <p class="text_project_focus text_project">The great green stack</p>
+                        <p class="text_project_focus text_project text_project_description">
+                            Practical part : Implementation of a responsive web page (Please find attached the statement).
+                            Theoretical part : Five questions concerning the different subjects that
+                        </p>
+                        <a>see more &#10095;</a>
+                    </div>
+                    <div class="project_frame">
+                        <img src="resources/columbia GSAPP.jpg" class="project_img"/>
+                        <p class="text_project">On improving the work environment</p>
+                        <a>see more &#10095;</a>
+                    </div>
+                    <div class="project_frame">
+                        <img src="resources/brutalism_style_is_quite_nice.jpg" class="project_img"/>
+                        <p class="text_project">Brutalism at NYC</p>
+                        <a>see more &#10095;</a>
+                    </div>
+                </nav>
+            </div>
+
+            <hr class="separator"/>
+        </div>
+
+        <!--footer-->
+        <div class="footer">
+            <div id="column_logo">
+                <img src="resources/bauhaus_brand_logo.png" class="socials_logo"/>
+            </div>
+            <div>
+                <p class="small_text">Copyrights <script>document.write( new Date().getFullYear() );</script> </p>
+                <p class="small_text">All rights reserved</p>
+            </div>
+            <div>
+                <a class="small_text emphased">Legal Information</a>
+                <p class="small_text">Term of Use</p>
+                <p class="small_text">Privacy Policy</p>
+                <p class="small_text">Piracy Prevention</p>
+            </div>
+            <div>
+                <p class="small_text">Our Location</p>
+                <p class="small_text">Cedex</p>
+                <p class="small_text">About</p>
+                <p class="small_text">Contact</p>
+            </div>
+            <div>
+                <p class="small_text">English &#10095</p>
+            </div>
+        </div>
+    </body>
+</html>
